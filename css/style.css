@@ -110,7 +110,7 @@ button:focus {
 }
 #particles-js{
     position: absolute;
-    top: -150px;
+    top: 0px;
     left: 0;
     width: 100%;
     z-index: 1
