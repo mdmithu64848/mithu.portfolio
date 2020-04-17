@@ -1,0 +1,105 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+
+
+}
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .form-area .name {
+    height: 40px;
+    width: 276px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+    .form-area form input {
+    height: 40px;
+    width: 270px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: #fff;
+}
+    .c-list li {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    margin: 62px 0;
+}
+
+}
+
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .counter {
+    display: table-cell;
+    margin: 1.5%;
+    font-size: 50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid red;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    color: #ffff;
+}
+    .counter{
+        font-size: 30px
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .form-area .name{
+        width: 600px;
+    }
+    .form-area form input{
+        width: 293px;
+    }
+    }
+.form textarea{
+    columns: 65px;
+}
+.form button{
+    margin-top: 30px;
+    display: block;
+} 
+    
+    
+}
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+
+
+
+
+
+
+
+
